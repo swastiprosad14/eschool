@@ -1,0 +1,122 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    header{
+        padding: 5px 0 !important;
+    }
+
+    .logo {
+        width: 180px;
+    }
+    .menu ul li a {
+        padding: 0 15px 10px !important;
+    }
+    .sin_btn{
+        margin-left: 4px;
+    }
+    /* banner start */
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 21px 20px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .b_p2 {
+        margin: 0;
+        line-height: 30px;
+    }
+    .b_img{
+        margin: 0px 0px 30px;
+    }
+    /* feature start */
+.c_p{
+    padding-bottom: 60px;
+}
+.sf_h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header{
+        padding: 5px 0 !important;
+    }
+    .menu ul li a {
+        padding: 0 15px 10px !important;
+    }
+.sin_btn{
+    margin-left: 4px;
+}
+/* banner start */
+.b_text {
+    text-align: center;
+}
+.b_h1 {
+    margin: 10px 75px 20px;
+    font-size: 35px;
+    line-height: 45px;
+}
+.b_p2 {
+    margin: 0px 50px;
+    line-height: 28px;
+}
+.b_img{
+    margin: 0px 50px 30px;
+}
+/* feature start */
+.c_p{
+    padding-bottom: 60px;
+}
+.sf_h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .menu ul li a {
+        padding: 0 15px 10px !important;
+    }
+    /* banner start */
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 97px 20px;
+    }
+    .b_p2 {
+        margin: 0px 104px;
+    }
+    .b_img{
+        margin: 0px 50px 30px;
+    }
+    /* feature start */
+    .c_p{
+        padding-bottom: 80px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner start */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98) {
+  
+}
+
+/* Extra extra large devices (large desktops, 1400px and up */
+@media (min-width:1400px){
+/* banner start */
+.b_h1{
+    margin: 10px 119px 20px 0;
+}
+}
